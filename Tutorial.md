@@ -1,4 +1,5 @@
 **Step 1: Installing VS Code**
+
 Visit this link (https://code.visualstudio.com) and choose the platform that you are on (Mac, Linux, Windows)
 
 After it is successfully installed, you should be able to open VS code and see something like this:
@@ -9,6 +10,7 @@ Congrats, you've installed VS Code!
 ---
 
 **Step 2: Connecting**
+
 Visit this link (https://gitforwindows.org/) to install Git Bash for Windows. Once it's installed, we have to set it as the default terminal in VS Code.
 1. Open the Terminal (Ctrl + ')
 2. Open the command palette (Ctrl + Shift + P)
