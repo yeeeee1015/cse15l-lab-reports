@@ -11,6 +11,8 @@ Congrats, you've installed VS Code!
 
 **Step 2: Connecting**
 
+---
+
 Visit this link (https://gitforwindows.org/) to install Git Bash for Windows. Once it's installed, we have to set it as the default terminal in VS Code.
 1. Open the Terminal (Ctrl + ')
 2. Open the command palette (Ctrl + Shift + P)
@@ -28,8 +30,24 @@ Now, click the link that says "change your password". Enter your current and new
 
 <img width="355" alt="image" src="https://user-images.githubusercontent.com/114766051/212503494-5b0d5acb-cd22-464b-8e99-80da4f6dd299.png">
 
-Great, your password is changed! Now, open VS code and open the terminal. Type in $ ssh cs15lwi23zz@ieng6.ucsd.edu, but replace "zz" with the three letters that you wrote down earlier. When the terminal asks about the authenticity of the host and if you want to continue, type yes and hit enter. Then, type in your password when prompted. It may take 15-60 minutes from when you changed your password for it to work, but when it does, you should see this.
+Great, your password is changed!
+
+---
+
+Now, open VS code and open the terminal. Type in $ ssh cs15lwi23zz@ieng6.ucsd.edu, but replace "zz" with the three letters that you wrote down earlier. When the terminal asks about the authenticity of the host and if you want to continue, type yes and hit enter. Then, type in your password when prompted. It may take 15-60 minutes from when you changed your password for it to work, but when it does, you should see this.
 
 <img width="538" alt="image" src="https://user-images.githubusercontent.com/114766051/212504041-395334e7-f695-4309-b53d-5c69318d51ad.png">
 
+Great, you're now remotely connected!
 
+---
+
+**Step 3: Running Commands**
+
+---
+
+Now that you've connected, try running some commands, like cd, ls, cat, mkdir, pwd, and exit.
+
+<img width="747" alt="image" src="https://user-images.githubusercontent.com/114766051/212504509-bf20fe8e-336c-4e56-97cb-89c3ade89bb7.png">
+
+And you're all set! Thanks for reading my tutorial!
