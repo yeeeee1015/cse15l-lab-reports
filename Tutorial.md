@@ -1,3 +1,5 @@
+# Lab Report 1
+
 **Step 1: Installing VS Code**
 
 Visit this link (https://code.visualstudio.com) and choose the platform that you are on (Mac, Linux, Windows)
