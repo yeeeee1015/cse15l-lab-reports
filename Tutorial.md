@@ -24,6 +24,6 @@ Now that Git Bash is your default terminal, let's connect to the remote server. 
 <img width="524" alt="image" src="https://user-images.githubusercontent.com/114766051/212503350-80a61de3-c8cf-4fd2-8599-13826c2ff1b4.png">
 
 Write down the three letters that are boxed in the picture (your letters are different). Then click on the boxed link.
-Now, click the link that says "change your password". Enter your current and new passwords, and when finished, DON'T click the check your password button. Instead, simply click return/enter on your keyboard when your cursor is selecting the new password field.
+Now, click the link that says "change your password". Enter your current and new passwords, and when finished, DON'T click the check your password button. Instead, simply click return/enter on your keyboard when your cursor is selecting the confirm password field.
 
 <img width="355" alt="image" src="https://user-images.githubusercontent.com/114766051/212503494-5b0d5acb-cd22-464b-8e99-80da4f6dd299.png">
