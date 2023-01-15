@@ -19,4 +19,4 @@ Visit this link (https://gitforwindows.org/) to install Git Bash for Windows. On
 5. Click on the + icon directly to the right of the terminal.
 <img width="114" alt="image" src="https://user-images.githubusercontent.com/114766051/212497086-c3d206bf-7414-45e8-a486-3dd236b80b9b.png">
 
-Now that Git Bash is your default terminal, let's connect to the remote server. To do this, carefully follow the instructions in this tutorial (https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit) to reset your password. 
+Now that Git Bash is your default terminal, let's connect to the remote server. To do this, visit https://sdacs.ucsd.edu/~icc/index.php. Log into your UCSD account by inputting 
