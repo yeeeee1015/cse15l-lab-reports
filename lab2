@@ -73,3 +73,6 @@ when it should only remove one. By changing the lowest number stored to the lowe
 numbers.
 
 # **Part 3**
+
+Something I learned in lab last week was how to create a web server, with different domains. I found it cool that you can access other people's web servers
+as well just by knowing their port number. 
