@@ -35,4 +35,41 @@ Symptom:
 
 ![alt text](https://github.com/[yeeeee1015]/[cse15l-lab-reports]//image.jpg?raw=true)
 
+Bug (Before code change):
+
+```
+static double averageWithoutLowest(double[] arr) {
+    if(arr.length < 2) { return 0.0; }
+    double lowest = arr[0];
+    for(double num: arr) {
+      if(num < lowest) { lowest = num; }
+    }
+    double sum = 0;
+    for(double num: arr) {
+      if(num != lowest) { sum += num; }
+    }
+    return sum / (arr.length - 1);
+  }
+ ```
+ 
+ Bug (After code change):
+ 
+ ```
+ static double averageWithoutLowest(double[] arr) {
+    if(arr.length < 2) { return 0.0; }
+    int lowestIndex = 0;
+    for(int i=0; i<arr.length; i++) {
+      if(arr[i] < arr[lowestIndex]) { lowestIndex = i; }
+    }
+    double sum = 0;
+    for(int i=0; i<arr.length; i++) {
+      if(i != lowestIndex) { sum += arr[i]; }
+    }
+    return sum / (arr.length - 1);
+  }
+ ```
+This fix addresses the issue. Before any code change, the code recognizes the lowest number to remove as a number, and removes all copies of that number
+when it should only remove one. By changing the lowest number stored to the lowest number's index, and only removing that index, we don't remove multiple
+numbers.
+
 # **Part 3**
