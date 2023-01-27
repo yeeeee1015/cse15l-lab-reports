@@ -33,7 +33,7 @@ This JUnit input does not induce a failure:
  
 Symptom:
 
-![alt text](https://github.com/[yeeeee1015]/[cse15l-lab-reports]/2023-01-27 01_24_20-ArrayTests.java/image.jpg?raw=true)
+<img width="741" alt="2023-01-27 01_24_20-ArrayTests java - lab3 - Visual Studio Code" src="https://user-images.githubusercontent.com/114766051/215225031-8cc6ec97-f087-4841-bb70-c10726e623c7.png">
 
 Bug (Before code change):
 
