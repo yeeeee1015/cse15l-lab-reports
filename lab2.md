@@ -41,12 +41,12 @@ public class StringServer {
 ```
 
 First screenshot of using /add-message:
-<img width="191" alt="image" src="https://user-images.githubusercontent.com/114766051/215295851-1fb6f263-2417-4871-b780-591fcefb6328.png">
+<img width="1000" alt="image" src="https://user-images.githubusercontent.com/114766051/215295851-1fb6f263-2417-4871-b780-591fcefb6328.png">
 
 In this screenshot, the main method is called and that is how the server is started. The main method's argument is the port number (1738) which is used to run the server. When we use /add-message, the method handleRequest is called. This method's argument is the URL we're in, and in that method we take in the path (In this case, it is /add-message). If the path is /add-message, and the query is s (It is in this case), then we proceed. The next words that are added in the URL (Hello) are what we want to display on the website, so I add it to a list. The final step is to format the list to separate each String by a new line, and then we are finished.
 
 Second screenshot of using /add-message:
-<img width="268" alt="image" src="https://user-images.githubusercontent.com/114766051/215296305-039ebc9d-e4ff-44bd-a98b-75597461f129.png">
+<img width="1000" alt="image" src="https://user-images.githubusercontent.com/114766051/215296305-039ebc9d-e4ff-44bd-a98b-75597461f129.png">
 
 Since the server is already running, we only have to call handleRequest again. The same methods and processes are repeated. The port is still 1738, and we still use /add-message and the query is s. This time, the String we want to add is "What's your name?".
 
