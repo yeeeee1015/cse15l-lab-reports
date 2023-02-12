@@ -6,9 +6,25 @@
 
 ---
 
+### Syntax:
+```
+grep [String to Search] -c [Directory]
+```
+### Example 1:
+
+```
+$ grep "began to exert" -c Amsterdam-History.txt
+
+```
+### Example 2:
+
+
+
 ## **Command 2: grep -l (files-with-matches)**
 
 ---
+
+
 
 ## **Command 3: grep -s (suppress)**
 
