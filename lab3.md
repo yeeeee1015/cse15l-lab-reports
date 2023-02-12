@@ -6,19 +6,23 @@
 
 ---
 
+The first command-line option that we are looking at is -c, or count. This option counts the amount of lines that match the string, and outputs the number of those lines that match.
+
 ### Syntax:
 ```
-grep [String to Search] -c [Directory]
+grep [String] -c [Directory]
 ```
 ### Example 1:
 
 ```
-$ grep "began to exert" -c Amsterdam-History.txt
+$ grep "the" -c Bahamas-History.txt
+30
 
 ```
 ### Example 2:
 
-
+```
+$ grep
 
 ## **Command 2: grep -l (files-with-matches)**
 
