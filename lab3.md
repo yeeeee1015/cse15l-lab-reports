@@ -16,6 +16,8 @@
 
 ## **Command 4: grep -o (only)**
 
+---
+
 Source for command 1: [grep -c](https://linuxcommand.org/lc3_man_pages/grep1.html)
 
 Source for command 2: [grep -l](https://linuxcommand.org/lc3_man_pages/grep1.html)
