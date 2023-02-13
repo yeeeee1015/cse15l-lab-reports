@@ -77,9 +77,35 @@ berlitz2/Portugal-History.txt
 ```
 This example uses -l to find all of the files in the directory berlitz2 that contain the String "Napoleon". Then, it outputs all of the files that have the string.
 
-## **Command 3: grep -s (suppress)**
+## **Command 3: grep -n (line number)**
 
 ---
+
+This command-line option outputs the line of the text that has the String, as well as the line number and path.
+
+### Syntax:
+```
+grep -n [String] [Directory]
+```
+
+### Example 1:
+
+```
+$ grep -n "Amsterdam" berlitz1/*
+berlitz1/IntroJerusalem.txt:99:        from Tangier, Fez, and Amsterdam to Salonika, Istanbul, and Aleppo
+berlitz1/WhatToJamaica.txt:583:        as a quirky “Amsterdam street meets Italian piazza” mall. The whole
+```
+In this example, there are two lines that include "Amsterdam", so their contents are printed, along with the file names. We also get to know the line numbers they appear on.
+
+### Example 2:
+
+```
+$ grep -n "Kansas" berlitz2/*
+berlitz2/China-WhereToGo.txt:304:The hard rock here was conducive to delicate carving, carried out on a monumental scale for about 400 years starting in a.d. 494. More than 1,300 grottoes were constructed, as well as 2,100 niches and nearly 100,000 statues. These range from a height of about 17 m (56 ft) to a fingernail-sized 2 cm (less than an inch). In addition, there are 40 pagodas and more than 3,600 inscribed steles or tablets, of keen interest to historians and calligraphers. Some priceless sculpture was in the past looted by Europeans and Americans. Guides often point out one wall from which two classic reliefs were chiseled in 1935 “by a Chinese curio dealer bribed by an American.” The works ended up in museums in 
+New York and Kansas City.
+berlitz2/NewOrleans-History.txt:30:But in 1803, only three years after retaking it, France sold Louisiana to the United States for $15 million. It was a controversial amount at the time — more than the US Treasury owned — but the Louisiana Purchase, as it became known, covered land from Canada to the Rockies to the Gulf of Mexico, and almost doubled the area of the United States. The deal turned out to be the bargain of all time — something like four cents an acre for what became Iowa, Arkansas, Missouri, Nebraska, South Dakota, and most of Kansas, Louisiana, and Oklahoma.
+```
+In this example, there are also two lines that include "Kansas", so their contents are printed. We also get to know the line numbers and files they appear in.
 
 ## **Command 4: grep -o (only)**
 
@@ -89,6 +115,6 @@ Source for command 1: [grep -c](https://linuxcommand.org/lc3_man_pages/grep1.htm
 
 Source for command 2: [grep -l](https://linuxcommand.org/lc3_man_pages/grep1.html)
 
-Source for command 3: [grep -s](https://man7.org/linux/man-pages/man1/grep.1p.html)
+Source for command 3: [grep -n](https://man7.org/linux/man-pages/man1/grep.1p.html)
 
 Source for command 4: [grep -o](https://developers.redhat.com/articles/2022/09/14/beginners-guide-regular-expressions-grep#what_are_regular_expressions__and_what_is_grep_)
