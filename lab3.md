@@ -111,6 +111,112 @@ In this example, there are also two lines that include "Kansas", so their conten
 
 ---
 
+This command prints the string that is being searched every time it is found in the directories it is searching.
+
+### Syntax:
+```
+grep -o [String] [Directory]
+```
+
+### Example 1:
+
+```
+$ grep -o "them" berlitz2/China-WhereToGo.txt
+them
+them
+them
+them
+them
+them
+them
+them
+them
+them
+them
+them
+them
+them
+them
+them
+them
+them
+them
+them
+them
+them
+them
+them
+them
+them
+```
+
+In this example, the string them is printed 26 times because the word is used 26 times in China-WhereToGo.txt.
+
+### Example 2:
+
+```
+$ grep -o "History" berlitz2/*
+berlitz2/Algarve-History.txt:History
+berlitz2/Amsterdam-History.txt:History
+berlitz2/Athens-History.txt:History
+berlitz2/Bahamas-History.txt:History
+berlitz2/Bali-History.txt:History
+berlitz2/Barcelona-History.txt:History
+berlitz2/Barcelona-WhereToGo.txt:History
+berlitz2/Beijing-History.txt:History
+berlitz2/Beijing-History.txt:History
+berlitz2/Beijing-WhereToGo.txt:History
+berlitz2/Beijing-WhereToGo.txt:History
+berlitz2/Berlin-History.txt:History
+berlitz2/Berlin-WhereToGo.txt:History
+berlitz2/Berlin-WhereToGo.txt:History
+berlitz2/Berlin-WhereToGo.txt:History
+berlitz2/Bermuda-history.txt:History
+berlitz2/Bermuda-WhereToGo.txt:History
+berlitz2/Bermuda-WhereToGo.txt:History
+berlitz2/Bermuda-WhereToGo.txt:History
+berlitz2/Boston-WhereToGo.txt:History
+berlitz2/Budapest-History.txt:History
+berlitz2/Budapest-WhatToDo.txt:History
+berlitz2/Budapest-WhereoGo.txt:History
+berlitz2/Budapest-WhereoGo.txt:History
+berlitz2/Budapest-WhereoGo.txt:History
+berlitz2/Budapest-WhereoGo.txt:History
+berlitz2/Budapest-WhereoGo.txt:History
+berlitz2/California-History.txt:History
+berlitz2/California-WhereToGo.txt:History
+berlitz2/California-WhereToGo.txt:History
+berlitz2/California-WhereToGo.txt:History
+berlitz2/Canada-WhereToGo.txt:History
+berlitz2/Canada-WhereToGo.txt:History
+berlitz2/Canada-WhereToGo.txt:History
+berlitz2/CanaryIslands-History.txt:History
+berlitz2/CanaryIslands-WhereToGo.txt:History
+berlitz2/Cancun-History.txt:History
+berlitz2/Cancun-WhereToGo.txt:History
+berlitz2/China-History.txt:History
+berlitz2/China-WhereToGo.txt:History
+berlitz2/China-WhereToGo.txt:History
+berlitz2/China-WhereToGo.txt:History
+berlitz2/China-WhereToGo.txt:History
+berlitz2/China-WhereToGo.txt:History
+berlitz2/China-WhereToGo.txt:History
+berlitz2/CostaBlanca-History.txt:History
+berlitz2/Costa-History.txt:History
+berlitz2/Crete-History.txt:History
+berlitz2/Crete-WhereToGo.txt:History
+berlitz2/Cuba-History.txt:History
+berlitz2/Cuba-History.txt:History
+berlitz2/NewOrleans-History.txt:History
+berlitz2/Portugal-History.txt:History
+berlitz2/PuertoRico-WhereToGo.txt:History
+berlitz2/PuertoRico-WhereToGo.txt:History
+berlitz2/Vallarta-History.txt:History
+```
+In this example, we are searching a directory this time instead of a single file so the word is printed along with each file that the word is found in.
+
+---
+
 Source for command 1: [grep -c](https://linuxcommand.org/lc3_man_pages/grep1.html)
 
 Source for command 2: [grep -l](https://linuxcommand.org/lc3_man_pages/grep1.html)
