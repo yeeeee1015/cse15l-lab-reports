@@ -6,6 +6,12 @@
 
 Delete any forks of the repository
 
+```
+rm -rf lab7
+```
+
+This command removes anything that shows up when we recursively find lab7
+
 ### Step 2:
 
 Make a new fork of the repository
