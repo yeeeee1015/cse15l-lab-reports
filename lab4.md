@@ -7,7 +7,7 @@
 ### Delete any forks of the repository
 
 ```
-rm -rf lab7
+rm -rf lab7 <enter>
 ```
 
 This command removes anything that shows up when we recursively find lab7
@@ -30,14 +30,14 @@ Stopwatch in a Google web browser!
 
 <img width="900" alt="image" src="https://user-images.githubusercontent.com/114766051/221388144-45f9f49e-87f9-4f85-81df-1a417afb5b2d.png">
 
-Exact keys I pressed: ```ssh cs15lwi23apc@ieng6.ucsd.edu```
+Exact keys I pressed: ```ssh cs15lwi23apc@ieng6.ucsd.edu <enter>```
 
 This command logs me into ieng6. 
 ## Step 5:
 
 ### Clone the repo from the Github account
 
-Exact keys I pressed: ```git clone <ctrl v>```
+Exact keys I pressed: ```git clone <ctrl v> <enter>```
 
 The url ```git@github.com:yeeeee1015/lab7.git``` was copied, so I used 
 control v, the paste command, to quickly get it typed.
@@ -75,7 +75,7 @@ This compiles and runs the tester, which produces the an error message, showing 
 
 Exact keys I pressed:
 
-```nano ListExamples.java```
+```nano ListExamples.java <enter>```
 
 ```<ctrl w> while <enter> <down> <down> <down> <down> <down> <down> <down> <down> <down> <down> <down> <down> <down> <down> <down> <down> <right> <right> <right> <right> <right> <right> <right> <right> <right> <right> <delete> 2```
 
@@ -117,7 +117,7 @@ Lastly, we save and push the changes to github! We do it with these key presses:
 
 ```git commit -m "edited file" <enter>```
 
-```git push```
+```git push <enter>```
 
 We git add and git commit to save the changes to the repository successfully. git push then uploads the repository to github, and we are finished!
 
