@@ -76,12 +76,19 @@ Exact keys I pressed:
 
 ```<ctrl w> while <enter> <down> <down> <down> <down> <down> <down> <down> <down> <down> <down> <down> <down> <down> <down> <down> <down> <right> <right> <right> <right> <right> <right> <right> <right> <right> <right> <delete> 2```
 
-```<ctrl o> <enter> <ctrl x>
+```<ctrl o> <enter> <ctrl x>```
 
 The first line gets me into the nano interface for ListExamples.java. I can begin to edit the file now.
 I do this by first pressing ```<ctrl w>``` which can find any line in the code. I want to find the first while loop, so I enter
 ```while <enter>```. Now, I press ```<down>``` 16 times to get to the line I want to fix, ```<right>``` 8 times to get to the
 ```index1``` that needs to be changed, and then I delete ```1``` and replace it with ```2```. The code is now fixed. Next, I save the code with ```<ctrl o> <enter>```, and I exit nano with ```<ctrl x>```
+
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/114766051/221444399-f9ea590c-522f-409e-a156-62aadc976f14.png">
+
+
+<img width="1000" alt="image" src="https://user-images.githubusercontent.com/114766051/221444379-cec54f5c-fb3a-4b43-8b63-9dcf17108075.png">
+
+In the image, the highlighted part is the code that was fixed.
 
 ## Step 8: 
 
