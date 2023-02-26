@@ -49,7 +49,9 @@ The rest of the command clones the url, which is the forked lab7 repository.
 
 Exact keys I pressed: 
 ```cd lab7 <enter>```
+
 ```<ctrl r> javac <enter>```
+
 ```<ctrl r> java <enter>```
 
 The first line gets me into the lab7 directory, where we need to run the tests.
@@ -61,7 +63,7 @@ If we do this again but with ```java ```, we get the command
 ```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests```
 
 This compiles and runs the tester, which produces the an error message, showing that the tests fail.
-<img width="314" alt="image" src="https://user-images.githubusercontent.com/114766051/221441581-8ec00eb6-d189-406f-bb3e-f80fc5c83621.png">
+<img width="1000" alt="image" src="https://user-images.githubusercontent.com/114766051/221441581-8ec00eb6-d189-406f-bb3e-f80fc5c83621.png">
 
 ## Step 7:
 
