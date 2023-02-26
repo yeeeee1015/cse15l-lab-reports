@@ -43,6 +43,9 @@ The url ```git@github.com:yeeeee1015/lab7.git``` was copied, so I used
 control v, the paste command, to quickly get it typed.
 
 The rest of the command clones the url, which is the forked lab7 repository, with the password protected ssh key.
+
+<img width="750" alt="image" src="https://user-images.githubusercontent.com/114766051/221445162-22fc9507-bf34-4baa-93c4-d08c405f3021.png">
+
 ## Step 6:
 
 ### Run the tests to demonstrate they fail
