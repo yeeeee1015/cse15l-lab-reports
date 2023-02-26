@@ -94,6 +94,26 @@ In the image, the highlighted part is the code that was fixed.
 
 ### Run the tests to demonstrate they succeed
 
+Now, we just repeat step 6 and press the exact same keys, but we don't need to cd into lab7 anymore:
+
+```<ctrl r> javac <enter>```
+
+```<ctrl r> java <enter>```
+
+The same reverse search technique is used again. Refer to step 6 for an explanation of why I typed what I typed.
+
+<img width="1000" alt="image" src="https://user-images.githubusercontent.com/114766051/221444510-c744d26b-c1fb-415c-874e-8d08cae24d7c.png">
+
 ## Step 9:
 
 ### Commit and push the changes
+
+Lastly, we save and push the changes to github! We do it with these key presses:
+
+```git add ListExamples.java <enter>```
+
+```git commit -m "edited file" <enter>```
+
+```git push```
+
+We git add and git commit to save the changes to the repository successfully. git push then uploads the repository to github, and we are finished!
