@@ -48,6 +48,7 @@ The rest of the command clones the url, which is the forked lab7 repository.
 ### Run the tests to demonstrate they fail
 
 Exact keys I pressed: 
+
 ```cd lab7 <enter>```
 
 ```<ctrl r> javac <enter>```
