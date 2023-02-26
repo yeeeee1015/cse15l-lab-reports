@@ -70,6 +70,19 @@ This compiles and runs the tester, which produces the an error message, showing 
 
 ### Fix the failed test by editing the code
 
+Exact keys I pressed:
+
+```nano ListExamples.java```
+
+```<ctrl w> while <enter> <down> <down> <down> <down> <down> <down> <down> <down> <down> <down> <down> <down> <down> <down> <down> <down> <right> <right> <right> <right> <right> <right> <right> <right> <right> <right> <delete> 2```
+
+```<ctrl o> <enter> <ctrl x>
+
+The first line gets me into the nano interface for ListExamples.java. I can begin to edit the file now.
+I do this by first pressing ```<ctrl w>``` which can find any line in the code. I want to find the first while loop, so I enter
+```while <enter>```. Now, I press ```<down>``` 16 times to get to the line I want to fix, ```<right>``` 8 times to get to the
+```index1``` that needs to be changed, and then I delete ```1``` and replace it with ```2```. The code is now fixed. Next, I save the code with ```<ctrl o> <enter>```, and I exit nano with ```<ctrl x>```
+
 ## Step 8: 
 
 ### Run the tests to demonstrate they succeed
