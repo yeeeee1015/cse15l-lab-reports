@@ -39,10 +39,10 @@ This command logs me into ieng6.
 
 Exact keys I pressed: ```git clone <ctrl v>```
 
-The url ```https://github.com/yeeeee1015/lab7``` was copied, so I used 
+The url ```git@github.com:yeeeee1015/lab7.git``` was copied, so I used 
 control v, the paste command, to quickly get it typed.
 
-The rest of the command clones the url, which is the forked lab7 repository.
+The rest of the command clones the url, which is the forked lab7 repository, with the password protected ssh key.
 ## Step 6:
 
 ### Run the tests to demonstrate they fail
@@ -117,3 +117,6 @@ Lastly, we save and push the changes to github! We do it with these key presses:
 ```git push```
 
 We git add and git commit to save the changes to the repository successfully. git push then uploads the repository to github, and we are finished!
+
+<img width="1000" alt="image" src="https://user-images.githubusercontent.com/114766051/221445134-c71b0903-9349-48f7-b2f5-95c51986513f.png">
+
