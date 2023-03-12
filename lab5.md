@@ -6,17 +6,18 @@
 
 ---
 
-[description of command-line option 1]
+The first command-line option that we are looking at is -v, or verbose. This option describes what our copy command is doing. It writes the file that is being copied, and it points an arrow (->) to the directory it is being copied to.
 
 ### Syntax:
 ```
-grep -c [String] [Directory]
+cp -v [Source] [Directory]
 ```
 ### Example 1:
 
+In the travel_guides directory of docsearch:
 ```
-code of example 1
-
+$ cp -v berlitz2/Bahamas-History.txt berlitz1
+'berlitz2/Bahamas-History.txt' -> 'berlitz1/Bahamas-History.txt'
 ```
 [explain example 1]
 
@@ -127,4 +128,8 @@ code of example 2
 ```
 [explain example 2]
 
-Sources used: https://ss64.com/bash/cp.html
+Source for command 1: [cp -v](https://www.computerhope.com/unix/ucp.htm)
+Source for command 2: [cp -i](https://ss64.com/bash/cp.html)
+Source for command 3: [cp -u]
+Source for command 4: [cp -r]
+Source for command 5: [cp -b]
