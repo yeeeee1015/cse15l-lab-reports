@@ -111,6 +111,8 @@ cp: overwrite 'ch8.txt'? y
 ```
 In this example, we ch8.txt already exists, so we are prompted when we try to copy ch14.txt's contents. I typed y, so the copy happens, and the contents of ch8.txt are overriden.
 
+---
+
 Source for command 1: [cp -v](https://www.computerhope.com/unix/ucp.htm)
 
 Source for command 2: [cp -u](https://ss64.com/bash/cp.html)
