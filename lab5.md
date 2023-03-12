@@ -62,7 +62,7 @@ In this example, ch14.txt is not newer than ch16.txt. Therefore, cp -u should no
 
 ---
 
-[description of command-line option 1]
+The next command-line option that we are looking at is -r, or recursive. This option copies the source file, and it also recursively copies all the files and subdirectories from that original source.
 
 ### Syntax:
 ```
@@ -71,17 +71,17 @@ cp -r [Source] [Directory]
 ### Example 1:
 
 ```
-code of example 1
+$ cp -r berlitz2 berlitz1
 
 ```
-[explain example 1]
+In this example, berlitz2 and all of its subdirectories and the files in those subdirectories are moved into berlitz1.
 
 ### Example 2:
 
 ```
-code of example 2
+$ cp -r ../non-fiction/OUP/Abernathy berlitz1
 ```
-[explain example 2]
+In this example, Abernathy (which is in a different parent directory altogether) and all of its subdirectories and the files in those subdirectories are moved into berlitz1.
 
 ## **Command 4: cp -b (backup)**
 
@@ -110,5 +110,5 @@ code of example 2
 
 Source for command 1: [cp -v](https://www.computerhope.com/unix/ucp.htm)
 Source for command 2: [cp -u](https://ss64.com/bash/cp.html)
-Source for command 3: [cp -r]
+Source for command 3: [cp -r](https://linuxize.com/post/cp-command-in-linux/)
 Source for command 4: [cp -b]
