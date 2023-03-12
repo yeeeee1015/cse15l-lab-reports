@@ -19,14 +19,16 @@ cd travel_guides
 $ cp -v berlitz2/Bahamas-History.txt berlitz1
 'berlitz2/Bahamas-History.txt' -> 'berlitz1/Bahamas-History.txt'
 ```
-[explain example 1]
+In this example, the source I'm copying (Bahamas-History.txt) and the directory I'm copying it to (berlitz1) are both written in the terminal by the command.
 
 ### Example 2:
 
 ```
-code of example 2
+cd travel_guides
+$ cp -v berlitz2/Bahamas-History.txt ../non-fiction/OUP/Abernathy
+'berlitz2/Bahamas-History.txt' -> '../non-fiction/OUP/Abernathy/Bahamas-History.txt'
 ```
-[explain example 2]
+In this example, the source I'm copying (Bahamas-History.txt) and the directory I'm copying it to (Abernathy, which is inside a different parent directory altogether) are both written in the terminal by the command.
 
 ## **Command 2: cp -i (interactive)**
 
