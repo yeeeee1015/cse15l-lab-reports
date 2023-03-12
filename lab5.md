@@ -25,20 +25,20 @@ In this example, the source I'm copying (Bahamas-History.txt) and the directory 
 
 ```
 cd travel_guides
-$ cp -v berlitz2/Bahamas-History.txt ../non-fiction/OUP/Abernathy
-'berlitz2/Bahamas-History.txt' -> '../non-fiction/OUP/Abernathy/Bahamas-History.txt'
+$ cp -v berlitz2/Bahamas-History.txt ../non-fiction/OUP/Abernathy/ch1.txt
+'berlitz2/Bahamas-History.txt' -> '../non-fiction/OUP/Abernathy/ch1.txt'
 ```
-In this example, the source I'm copying (Bahamas-History.txt) and the directory I'm copying it to (Abernathy, which is inside a different parent directory altogether) are both written in the terminal by the command.
+In this example, the source I'm copying (Bahamas-History.txt) and the source I'm copying it to (ch1.txt) are both written in the terminal by the command. ch1.txt's contents turn into Bahamas-History.txt's contents.
 
 ## **Command 2: cp -u (update)**
 
 ---
 
-[description of command-line option 1]
+The next command-line option that we are looking at is -u, or update. This option only copies when the source file we're copying is newer than the destination directory or file. Essentially, it allows us to update files.
 
 ### Syntax:
 ```
-grep -c [String] [Directory]
+cp -u [Source] [Directory]
 ```
 ### Example 1:
 
@@ -63,7 +63,7 @@ code of example 2
 
 ### Syntax:
 ```
-grep -c [String] [Directory]
+cp -r [Source] [Directory]
 ```
 ### Example 1:
 
@@ -88,7 +88,7 @@ code of example 2
 
 ### Syntax:
 ```
-grep -c [String] [Directory]
+cp -b [Source] [Directory]
 ```
 ### Example 1:
 
