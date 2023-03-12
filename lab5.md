@@ -14,8 +14,8 @@ cp -v [Source] [Directory]
 ```
 ### Example 1:
 
-In the travel_guides directory of docsearch:
 ```
+cd travel_guides
 $ cp -v berlitz2/Bahamas-History.txt berlitz1
 'berlitz2/Bahamas-History.txt' -> 'berlitz1/Bahamas-History.txt'
 ```
