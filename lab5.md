@@ -83,32 +83,35 @@ $ cp -r ../non-fiction/OUP/Abernathy berlitz1
 ```
 In this example, Abernathy (which is in a different parent directory altogether) and all of its subdirectories and the files in those subdirectories are moved into berlitz1.
 
-## **Command 4: cp -b (backup)**
+## **Command 4: cp -i (backup)**
 
 ---
 
-[description of command-line option 1]
+The next command-line option that we are looking at is -i, or intereactive. This option copies the source file, but if we are overriding another file when we are copying into a location, the terminal prompts us if we want to override the file. We can type ```y -enter``` if we want it copied, or ```n -enter``` if we don't want it copied.
 
 ### Syntax:
 ```
-cp -b [Source] [Directory]
+cp -i [Source] [Directory]
 ```
 ### Example 1:
 
 ```
-code of example 1
-
+$ cd non-fiction/OUP/Abernathy
+$ cp -i ch14.txt ch8.txt
+cp: overwrite 'ch8.txt'? n
 ```
-[explain example 1]
+In this example, we ch8.txt already exists, so we are prompted when we try to copy ch14.txt's contents. I typed n, so the copy does not happen.
 
 ### Example 2:
 
 ```
-code of example 2
+$ cd non-fiction/OUP/Abernathy
+$ cp -i ch14.txt ch8.txt
+cp: overwrite 'ch8.txt'? y
 ```
-[explain example 2]
+In this example, we ch8.txt already exists, so we are prompted when we try to copy ch14.txt's contents. I typed y, so the copy happens, and the contents of ch8.txt are overriden.
 
 Source for command 1: [cp -v](https://www.computerhope.com/unix/ucp.htm)
 Source for command 2: [cp -u](https://ss64.com/bash/cp.html)
 Source for command 3: [cp -r](https://linuxize.com/post/cp-command-in-linux/)
-Source for command 4: [cp -b]
+Source for command 4: [cp -b](https://www.computerhope.com/unix/ucp.htm)
