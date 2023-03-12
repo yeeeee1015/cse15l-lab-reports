@@ -30,7 +30,7 @@ $ cp -v berlitz2/Bahamas-History.txt ../non-fiction/OUP/Abernathy
 ```
 In this example, the source I'm copying (Bahamas-History.txt) and the directory I'm copying it to (Abernathy, which is inside a different parent directory altogether) are both written in the terminal by the command.
 
-## **Command 2: cp -i (interactive)**
+## **Command 2: cp -u (update)**
 
 ---
 
@@ -55,7 +55,7 @@ code of example 2
 ```
 [explain example 2]
 
-## **Command 3: cp -u (update)**
+## **Command 3: cp -r (recursive)**
 
 ---
 
@@ -80,32 +80,7 @@ code of example 2
 ```
 [explain example 2]
 
-## **Command 4: cp -r (recursive)**
-
----
-
-[description of command-line option 1]
-
-### Syntax:
-```
-grep -c [String] [Directory]
-```
-### Example 1:
-
-```
-code of example 1
-
-```
-[explain example 1]
-
-### Example 2:
-
-```
-code of example 2
-```
-[explain example 2]
-
-## **Command 5: cp -b (backup)**
+## **Command 4: cp -b (backup)**
 
 ---
 
@@ -131,7 +106,6 @@ code of example 2
 [explain example 2]
 
 Source for command 1: [cp -v](https://www.computerhope.com/unix/ucp.htm)
-Source for command 2: [cp -i](https://ss64.com/bash/cp.html)
-Source for command 3: [cp -u]
-Source for command 4: [cp -r]
-Source for command 5: [cp -b]
+Source for command 2: [cp -u](https://ss64.com/bash/cp.html)
+Source for command 3: [cp -r]
+Source for command 4: [cp -b]
